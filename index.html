@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="favicon.png" >
+
+        <title>Ṏ senteurs goûtues </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/>
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        
+    </head>
+
+    <body>
+
+        <style type="text/css">
+            img {
+                object-fit: cover;
+            }
+            .card-img-top {
+                height: 200px; 
+                width: 300px;
+            }
+            table.dataTable.no-footer {
+                 border-bottom: 0px solid #111; 
+            }
+            .datatableCard tbody tr {
+                float: left;
+                width: 19rem;
+                margin: 0.5rem;
+                border: 0.0625rem solid rgba(0, 0, 0, .125);
+                border-radius: .25rem;
+                box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+            }
+
+            .datatableCard tbody td {
+                display: block;
+            }
+
+            .datatableCard thead {
+                display: none;
+            }
+            .datatableCustomSize {
+                min-height: 30px;
+                max-height: 30px;
+            }
+            .datatableCard td:before {
+                content: attr(data-label);
+                position: relative;
+                float: left;
+                color: #808080;
+                min-width: 4rem;
+                margin-left: 0;
+                margin-right: 1rem;
+                text-align: left;   
+            }
+
+            tr.selected td:before {
+                color: #CCC;
+            }
+
+            .table .avatar {
+                width: 50px;
+            }
+
+            .datatableCard .avatar {
+                width: 150px;
+                margin-top: 15px;
+            }
+            .dataTables_paginate {
+                padding-right: 105px;
+                margin-top: 20px;
+            }
+            .dataTables_filter {
+                padding-right: 105px;
+            }
+            .dataTables_info {
+                margin-top: 10px;
+            }
+
+
+
+            .galeriePicture {
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+
+.galeriePicture:hover {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+}
+        </style>
+
+        <header id="home">
+
+            <nav id="nav-wrap">
+
+                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Voir le menu</a>
+                <a class="mobile-btn" href="#" title="Hide navigation">Cacher le menu</a>
+
+                <ul id="nav" class="nav">
+                    <li class="current"><a class="smoothscroll" href="#home">Accueil</a></li>
+                    <li><a class="smoothscroll" href="#product">Les produits</a></li>
+                    <li><a class="smoothscroll" href="#photos">Galerie photos</a></li>
+                    <li><a class="smoothscroll" href="#location">Nos coordonnées</a></li>
+                </ul> 
+
+            </nav> 
+
+            <div class="row banner">
+                <div class="banner-text">
+                    <h2 class="responsive-headline" style="margin-top: 220px;">Ṏ <br>senteurs goûtues</h2>
+                    <h4> <span>Depuis plusieurs années, passionné par la nature, je cultive moi-même et pour ma consommation personnelle mes fruits et légumes. 
+C’est ainsi que j’ai pu en faire profiter mon entourage, à la suite de cela, j'ai décidé d'ouvrir une entreprise afin de pouvoir vendre mes plants de fleurs et de légumes et ainsi vous faire partager ma passion.
+                    </span><br><br>
+                        Continuez à scroller pour <a class="smoothscroll" href="#product">découvrir nos différents produits</a></h4>
+                    <hr/>
+                </div>
+            </div>
+
+            <p class="scrolldown">
+                <a class="smoothscroll" href="#product"><i class="icon-down-circle"></i></a>
+            </p>
+
+        </header>
+
+        <section id="product" class="py-5 bg-light"> 
+            
+            <div class="container">
+
+                <h1 class="fw-bolder mt-5"> Plants de fruits et légumes</h1>
+
+                <table id="legumes" class="table table-sm table-hover datatableCard" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Lot</th>
+                         </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+             <div class="container">
+
+                <h1 class="fw-bolder mt-5"> Plants de fleurs</h1>
+
+                <table id="fleurs" class="table table-sm table-hover datatableCard" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Lot</th>
+                         </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+            <div class="container">
+
+                <h1 class="fw-bolder mt-5"> Plants de plantes aromatiques</h1>
+
+                <table id="aromatiques" class="table table-sm table-hover datatableCard" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Lot</th>
+                         </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+        </section>
+
+        <section id="photos" class="py-5" style="margin-bottom: 100px;"> 
+            
+            <div class="container">
+
+                <h1 class="fw-bolder mt-5"> Galerie photos</h1>
+
+                <table id="galerie" class="table table-sm table-hover datatableCard" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                         </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+        </section>
+
+        <section id="location" class="mt-5">
+
+            <div class="row bg-light">
+
+                <div class="col-md-12 mt-3 mb-5">
+                    <div class="text-white rounded">
+                         <h1 class="text-center mt-5 font-weight-bold text-dark">Nos coordonnées</h1>
+                    </div> 
+                </div>
+
+                <div class="col-md-6">
+                       <h2><img src="images/contact/email.png" style="max-height: 40px; max-width: 40px;vertical-align: sub;"></img>  osenteursgoutues@gmail.com</h2>
+                </div>
+
+                 <div class="col-md-6">
+                        <h2><img src="images/contact/tel.png" style="max-height: 40px; max-width: 40px;vertical-align: sub;"></img>  0769168748</h2>
+                </div>
+          
+
+                    <div class="col-md-12">
+                        <h2><img src="images/contact/location.png" style="max-height: 40px; max-width: 40px;vertical-align: sub;"></img>  19 Rue de la Ferme, 28170 Sérazereux</h2>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="text-center mt-5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2638.651698417614!2d1.4296793162794368!3d48.597367527002724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4072b101fda55%3A0xa254a23b1f201bab!2sO%20senteurs%20goutues!5e0!3m2!1sfr!2sfr!4v1650015788462!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+                     
+                    </div>
+            </div>
+
+        </section> 
+
+        <footer class="mt-5" style="background-color: white; margin-bottom: 0px;">
+
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+                <li>&copy; Copyright 2022</li>
+                <li><a href="https://www.linkedin.com/in/vincent-hais-946a5a165">Afficher les CGV</a></li>
+            </ul>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+        </footer> 
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');</script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+        <script src="js/modernizr.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/magnific-popup.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="datatables/datatables.min.js"></script>
+
+        <script>
+
+          $(document).ready(function () {
+
+            datatableProduct("#legumes", "legumes.txt");
+            datatableProduct("#fleurs", "fleurs.txt");
+            datatableProduct("#aromatiques", "plantes.txt");
+
+            function datatableProduct(idDatatatable, ajaxRequest) {
+                $(idDatatatable).DataTable({
+                'ajax': ajaxRequest,
+                'columns': [
+                    {
+                        'orderable': false,
+                        'data': 'picture',
+                        'className': 'text-center',
+                        'render': function(data, type, full, meta) {                                    
+                            return '<img src="images/product/'+data+'" class="avatar" style="height: 140px;">';
+                        }
+                    }, 
+                    {
+                        'data': 'name',
+                        'render': function(data, type, full, meta) {     
+                            return '<h5 class="text-center"> '+data+' </h5>';                        
+                        }
+                    }, 
+                    {
+                        'data': 'price',
+                        'render': function(data, type, full, meta) {     
+                            if (full.quantity !== "undefined" && data !== "undefined") {
+                                return '<h5 class="text-center mt-4">'+data+'</h5>';
+                            } else {
+                                return '<p> </p>'
+                            }                           
+                            
+                        }
+                    },
+                    {
+                        'data': 'lotPrice',
+                        'render': function(data, type, full, meta) {     
+                            if (full.lotQuantity !== "undefined" && data !== "undefined") {                               
+                                return '<p class="text-center"> le lot de '+full.lotQuantity+' : '+data+' </p>';
+                            } else {
+                                return '<p> </p>'
+                            }
+                        }
+                    }
+                ],
+                'language': {
+                    "search": "Recherche",
+                    "lengthMenu": "_MENU_ par page",
+                    "zeroRecords": "Aucune information trouvée",
+                    "info": "_TOTAL_ résultats",
+                    "infoEmpty": "",
+                    "infoFiltered": "",
+                    "processing": "Chargement en cours...",
+                    "oPaginate": {
+                        "sPrevious": "Précédent",
+                        "sNext": "Suivant"
+                    }
+                },
+                "paging": true,
+                "pageLength": 12,
+                "lengthMenu": [ 12, 30, 54, 78, 108 ],
+                "pagingType": "simple_numbers",
+                "h": 25,
+                 "columnDefs": [{
+                            targets: '_all',
+                            className: 'datatableCustomSize'
+                        }],
+                'drawCallback': function (settings) {
+                    var api = this.api();
+                    var $table = $(api.table().node());
+            
+                    if ($table.hasClass('cards')) {
+
+                        // Create an array of labels containing all table headers
+                        var labels = [];
+                        $('thead th', $table).each(function () {
+                            labels.push($(this).text());
+                        });
+
+                        // Add data-label attribute to each cell
+                        $('tbody tr', $table).each(function () {
+                            $(this).find('td').each(function (column) {
+                                $(this).attr('data-label', labels[column]);
+                            });
+                        });
+
+                        var max = 0;
+                        $('tbody tr', $table).each(function () {
+                            max = Math.max($(this).height(), max);
+                        }).height(max);
+
+                    } else {
+                        // Remove data-label attribute from each cell
+                        $('tbody td', $table).each(function () {
+                            $(this).removeAttr('data-label');
+                        });
+
+                        $('tbody tr', $table).each(function () {
+                             $(this).height('auto');
+                        });
+                    }
+                }
+            });
+
+
+            }
+
+             $('#galerie').DataTable({
+                'ajax': 'galerie.txt',
+                'columns': [
+                    {
+                        'orderable': false,
+                        'data': 'picture',
+                        'className': 'text-center',
+                        'render': function(data, type, full, meta) {                                    
+                            return '<img src="images/galerie/'+data+'" class="galeriePicture" style="height: 200px;width:200px;">';
+                        }
+                    }
+                ],
+                'language': {
+                    "search": "Recherche",
+                    "lengthMenu": "_MENU_ par page",
+                    "zeroRecords": "Aucune information trouvée",
+                    "info": "_TOTAL_ résultats",
+                    "infoEmpty": "",
+                    "infoFiltered": "",
+                    "processing": "Chargement en cours...",
+                    "oPaginate": {
+                        "sPrevious": "Précédent",
+                        "sNext": "Suivant"
+                    }
+                },
+                "pageLength": 12,
+                "lengthMenu": [ 12, 30, 54, 78, 108 ],
+                "paging": true,
+                "pagingType": "simple_numbers",
+                "h": 25,
+                  "dom": '<"d-none"i>t<"bottom"<"float-left"l><"float-right"p>r><"clear">',
+                 "columnDefs": [{
+                            targets: '_all',
+                            className: 'datatableCustomSize'
+                        }],
+                'drawCallback': function (settings) {
+                    var api = this.api();
+                    var $table = $(api.table().node());
+            
+                    if ($table.hasClass('cards')) {
+
+                        // Create an array of labels containing all table headers
+                        var labels = [];
+                        $('thead th', $table).each(function () {
+                            labels.push($(this).text());
+                        });
+
+                        // Add data-label attribute to each cell
+                        $('tbody tr', $table).each(function () {
+                            $(this).find('td').each(function (column) {
+                                $(this).attr('data-label', labels[column]);
+                            });
+                        });
+
+                        var max = 0;
+                        $('tbody tr', $table).each(function () {
+                            max = Math.max($(this).height(), max);
+                        }).height(max);
+
+                    } else {
+                        // Remove data-label attribute from each cell
+                        $('tbody td', $table).each(function () {
+                            $(this).removeAttr('data-label');
+                        });
+
+                        $('tbody tr', $table).each(function () {
+                             $(this).height('auto');
+                        });
+                    }
+                }
+            });
+
+        });
+            
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "picture": "persil.jpg",
+            "name": "Persil",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "3, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "basilic.jpg",
+            "name": "Basilic",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "3, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "bourrache.jpg",
+            "name": "Bourrache",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "3, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "ciboulette.jpg",
+            "name": "Ciboulette",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "3, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "menthe.jpg",
+            "name": "Menthe",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "4, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "origan.jpg",
+            "name": "Origan",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "4, 50 €",
+            "lotPrice": "undefined"
+        },
+        {
+            "picture": "romarin.jpg",
+            "name": "Romarin",
+            "quantity": "1",
+            "lotQuantity": "undefined",
+            "price": "4, 50 €",
+            "lotPrice": "undefined"
+        }
+        
+    ]
+}
