@@ -1,4 +1,4 @@
-{
+﻿{
     "data": [
         {
             "picture": "coeurBoeuf.jpg",
@@ -53,7 +53,7 @@
             "name": "Brandywine",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "2, 80 €",
+            "price": "2, 20 €",
             "lotPrice": "6, 30 €"
         },
         {

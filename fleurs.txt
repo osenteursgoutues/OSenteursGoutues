@@ -1,12 +1,12 @@
-{
+﻿{
     "data": [
         {
             "picture": "oeilletInde.jpg",
             "name": "Oeillet d'inde",
             "quantity": "1",
-            "lotQuantity": "undefined",
-            "price": "1, 80 €",
-            "lotPrice": "undefined"
+            "lotQuantity": "10",
+            "price": "0, 50 €",
+            "lotPrice": "4 €"
         },
 	    {
             "picture": "oeilletPoete.jpg",
@@ -84,9 +84,9 @@
             "picture": "roseInde.jpg",
             "name": "Rose d'inde",
             "quantity": "1",
-            "lotQuantity": "undefined",
-            "price": "1, 80 €",
-            "lotPrice": "undefined"
+            "lotQuantity": "10",
+            "price": "0, 50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "coleus.jpg",
