@@ -157,16 +157,16 @@
             "name": "Pastèque",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "2 €",
+            "lotPrice": "5,50 €"
         },
         {
             "picture": "melon.jpg",
             "name": "Melon",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "2 €",
+            "lotPrice": "5,50 €"
         },
         {
             "picture": "saladesDiverses.jpg",
@@ -174,55 +174,55 @@
             "quantity": "6",
             "lotQuantity": "12",
             "price": "undefined",
-            "lotPrice": "undefined"
+            "lotPrice": "3,50 €"
         },
         {
             "picture": "potiron.jpg",
             "name": "Potiron",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "potimaron.jpg",
             "name": "Potimaron",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "butternut.jpg",
             "name": "Butternut",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "courgeMusque.jpg",
             "name": "Courge musquée de provence",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "courgeSpaghetti.jpg",
             "name": "Courge spaghetti",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "courgePatidou.jpg",
             "name": "Courge patidou",
             "quantity": "1",
             "lotQuantity": "3",
-            "price": "undefined",
-            "lotPrice": "undefined"
+            "price": "1,50 €",
+            "lotPrice": "4 €"
         },
         {
             "picture": "physalis.jpg",

@@ -18,7 +18,7 @@
         },
 	    {
             "picture": "immortelle.jpg",
-            "name": "Immortelle jaune / blanc",
+            "name": "Immortelle",
             "quantity": "1",
             "lotQuantity": "undefined",
             "price": "1, 80 €",
@@ -49,8 +49,8 @@
             "lotPrice": "undefined"
         },
         {
-            "picture": "begonia.jpg",
-            "name": "Begonia",
+            "picture": "bégonia.jpg",
+            "name": "Bégonia",
             "quantity": "1",
             "lotQuantity": "undefined",
             "price": "2 €",
@@ -73,7 +73,7 @@
             "lotPrice": "undefined"
         },
         {
-            "picture": "creteCoq.jpg",
+            "picture": "crete de coq.jpg",
             "name": "Crète de coq",
             "quantity": "1",
             "lotQuantity": "undefined",
