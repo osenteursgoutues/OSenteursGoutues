@@ -73,7 +73,7 @@
             "lotPrice": "undefined"
         },
         {
-            "picture": "crete de coq.jpg",
+            "picture": "Crete de Coq.jpg",
             "name": "Crète de coq",
             "quantity": "1",
             "lotQuantity": "undefined",
